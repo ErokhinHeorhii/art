@@ -1,0 +1,507 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/montserrat-medium-italic.ttf)
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.first-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 360px;
+    min-height: 640px;
+    background-color: lightblue;
+    
+    padding-bottom: 10px;
+
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 360px;
+    min-height: 640px;
+    background-color: lightblue;
+    
+
+}
+
+.header  {
+    display: flex;
+    justify-content:center;
+    min-width: 360px;
+    height: 100px;
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    
+    width: 100px;
+    height: 63.64px;
+
+    
+    background: url(./assets/logo.png);
+
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+    min-width: 330px;
+
+height: 480px;
+left: 15px;
+top: 98.64px;
+margin: 0 auto;
+margin-top: -25px;
+}
+
+.game-variation {
+display: flex;
+flex-wrap: wrap;
+gap: 0px 0px;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.link-card{
+    position: relative;
+}
+.link-image {
+    width: 330px;
+    height: 213px;
+}
+
+.artists-quiz {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .pictures-quiz {
+    display: flex;
+    width: 100%;
+    height: 213px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .button-setting{
+     display: flex;
+     width: 130px;
+height: 44px;
+margin-top: 20px;
+justify-content: space-between;
+align-items: center;
+background-color: #660033;
+
+   }
+.button-icon{
+    width: 78%;
+    height: auto;
+    object-fit:contain;
+    
+}
+.button-text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    width: 400;
+
+}
+
+   .restangle {
+       display: flex;
+       position: absolute;
+    width: 330px;
+    height: 20px; 
+    margin-top: -35px;
+    justify-content: center;
+   }
+
+   .restangle-title{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #660033;
+    width: 700;
+    text-transform: uppercase;
+
+   }
+
+.setting-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 360px;
+    min-height: 640px;
+    background-color: lightblue;
+    padding-top: 33px;
+    // padding-bottom: 150px;
+
+}
+
+.header-setting {
+    display: flex;
+    justify-content:space-around;
+    min-width: 360px;
+    height: 100px;
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.logo-setting {
+    display:flex;
+    width: 100px;
+    height: 63.64px;
+    justify-content: space-between;
+     align-items: flex-end;
+}
+
+.logo-text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color:  #660033;
+    width: 400;
+}
+.question-text 
+ {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color:  #660033;
+    width: 400;
+}
+.setting-text{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 22px;
+    color:  #660033;
+    width: 400;
+}
+
+
+.setting-container {
+    display: flex;
+    flex-direction:column;
+    min-width: 330px;
+    height: 440px;
+    left: 15px;
+    top: 98.64px;
+    margin: 0 auto;
+    margin-top: -25px;
+    }
+
+    .volume {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 336.36px;
+        min-height: 204.61px;
+        padding-top: 30px;
+        margin-top: 30px;
+        background-color: whitesmoke;
+    }
+
+    .sound-bar {
+        display: flex;
+
+    }
+    .range-volume{
+        background: #660033;
+    }
+    .time-game {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 336.36px;
+        min-height: 204.61px;
+        padding-top: 30px;
+        margin-top: 30px;
+        background-color: whitesmoke;
+    }
+    .button-setting-footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .button-save{
+        display: flex;
+        width: 130px;
+   height: 40px;
+   margin-top: 20px;
+   justify-content: center;
+   align-items: center;
+   background-color: #660033;
+   
+      }
+
+      
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 360px;
+    min-height: 640px;
+    background-color: lightblue;
+    padding-top: 20px;
+
+}
+
+
+.button-save-categories{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.categories-container {
+    display: flex;
+    flex-direction:column;
+    min-width: 330px;
+    height: auto;
+
+    }
+    .button-home{
+        display: flex;
+        width: 130px;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   background-color: #660033;
+   
+      }
+
+      .categories-group{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        gap: 2px 2px;
+        padding-top: 15px;
+      }
+
+      .categories-card-last {
+          display: flex;
+          min-width: 115px;
+          height: 180px;
+background-color: whitesmoke;
+          flex-direction: column;
+          justify-content: start;
+          align-items: start;
+      }
+      .categories-card {
+        
+background-color: gray;
+      }
+
+
+
+
+
+
+
+      .categories-item {
+          display: flex;
+          justify-content: space-between;
+          min-width: 115px; 
+          align-items: center;
+
+      }
+
+      .categories-image {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          min-width: 100px; 
+          padding-bottom: 5px;
+      }
+
+      .categories-number {
+        font-family: "Montserrat", sans-serif;
+        font-style: bold;
+        font-size: 36px;
+        line-height: 45px;
+        color:  #660033;
+        width: 400; 
+      }
+
+      .categories-check  {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 17px;
+        color:  #660033;
+        width: 400; 
+      }
+
+      .categories-image_name{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color:  #660033;
+        width: 400; 
+      }
+
+      .question-artists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 360px;
+        min-height: 640px;
+        background-color: lightblue;
+        
+    
+    }
+    .header-question{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        min-width: 360px;
+        height: 100px;
+    
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .question-home{
+        width: 50px;
+        height: 50px;
+background: url(./assets/home-button.png);
+    }
+
+    .question-question{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+    }
+    .question-picture{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        min-width:360px;
+        height:365px;
+        background-image: url(./assets/question-01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .question-input{
+        position: absolute;
+        padding-bottom: 10px;
+    }
+    .question-answer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .answer-2block{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .answer-block{
+        display: flex;
+min-width:180px;
+height: 60px; 
+justify-content: center;
+align-items: center;
+border:1px solid #660033;
+background-color:whitesmoke
+}
+
+.answer-block-green {
+    background-color: green;
+}
+.answer-block-red {
+    background-color:orangered;
+}
+
+
+.answer-text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 18px;
+    color:  #660033;
+    width: 400;
+}
+
+.question-painting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 360px;
+    
+    background-color: lightblue;
+
+}
+
+.question-item{
+    min-width: 360px;
+    min-height: 90px;
+   
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.next-question-painting {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #660033;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.painting1{
+    // background-image:url("./img/237.jpg") ;
+}
+
+.invisible{
+    display: none;
+}
+.visible{
+    display: flex;
+}
+
+// @media (min-width: 360px) and (max-width: 768px){
+     
+//         .volume{
+//             width: 500px;
+//             height: 320px;
+//         }
+
+//         .container{
+            
+
+//         }
+// }
